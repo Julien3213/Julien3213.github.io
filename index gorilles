@@ -1,0 +1,22 @@
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Most Dangerous Primates Table of Contents</title>
+</head>
+
+<body>
+  <h1>Table of Contents</h1>
+  <ul>
+    <li><a href="#gorillas">Gorillas</a></li>
+    <li><a href="#chimpanzees">Chimpanzees</a></li>
+    <li><a href="#baboons">Baboons</a></li>
+    <li><a href="#mandrills">Mandrills</a></li>
+    <li><a href="#rhesus">Rhesus Macaques</a></li>
+  </ul>
+
+  <h1 id="gorillas">Gorillas</h1>
+  <p>Les gorilles, parmi les plus grands primates terrestres, sont impressionnants de par leur physique massif et leur force phénoménale. Avec des mâles adultes pouvant peser jusqu'à 180 kilogrammes (400 livres) et mesurer plus de 1,8 mètre (6 pieds) lorsqu'ils se tiennent debout, leur stature imposante inspire le respect. Leur corps est recouvert de poils noirs épais, et les mâles adultes développent souvent des taches grises distinctives sur leur dos, d'où leur nom "dos argenté". Vivant en groupes familiaux, ils défendent farouchement leur territoire et leurs membres, réagissant avec agressivité face aux menaces perçues. Les mâles dominants affichent souvent des comportements de dominance, et leur réaction à la peur peut parfois être imprévisible, les rendant potentiellement dangereux. Cependant, les attaques de gorilles sur les humains sont extrêmement rares, et la plupart des interactions se déroulent sans incident lorsque les gorilles sont traités avec respect et une distance appropriée.</p>
+</body>
+</html>
