@@ -1,20 +1,36 @@
 <html>
-
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
-  <title>Most Dangerous Primates Table of Contents</title>
+  <title>Wild Primates Introduction</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding-top: 50px;
+    }
+    #startButton {
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      cursor: pointer;
+    }
+  </style>
 </head>
-
 <body>
-  <h1>Table of Contents</h1>
-  <ul>
-    <li><a href="#gorillas">index-gorilles>
-    <li><a href="#chimpanzees">Chimpanzees</a></li>
-    <li><a href="#baboons">Baboons</a></li>
-    <li><a href="#mandrills">Mandrills</a></li>
-    <li><a href="#rhesus">Rhesus Macaques</a></li>
-  </ul>
+  <h1>Welcome to the World of Wild Primates!</h1>
+  <button id="startButton">Start</button>
+  <div id="primatePresentation" style="display: none;">
+    <h2>Gorillas</h2>
+    <p>Gorillas are powerful primates known for their large size and strength. Despite their gentle nature, they can become dangerous if provoked or feel threatened.</p>
+    <p>It is important to respect gorillas' space and behavior when encountering them in the wild to avoid potential conflicts.</p>
+  </div>
+  <script>
+    document.getElementById("startButton").addEventListener("click", function() {
+      document.getElementById("primatePresentation").style.display = "block";
+    });
+  </script>
 </body>
-
 </html>
