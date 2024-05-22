@@ -1,41 +1,25 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>Wild Primates Introduction</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      text-align: center;
-      padding-top: 50px;
-    }
-    #startButton {
-      padding: 10px 20px;
-      font-size: 18px;
-      background-color: #007bff;
-      color: #fff;
-      border: none;
-      cursor: pointer;
-    }
-    #primatePresentation {
-      display: none;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page d'accueil</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Welcome to the World of Wild Primates!</h1>
-  <button id="startButton">Start</button>
-  <div id="primatePresentation">
-    <h2>Gorillas</h2>
-    <p>Le gorille, avec sa stature imposante et son intelligence remarquable, est l'un des grands singes les plus fascinants de la planète. Vivant dans les forêts d'Afrique centrale, ces créatures sociales se distinguent par leur régime alimentaire principalement végétarien et leur organisation en groupes familiaux dirigés par un mâle dominant.</p>
-    <p>Cependant, malgré leur apparence paisible, les gorilles peuvent être dangereux dans certaines situations. Leur force physique impressionnante peut causer des blessures graves lorsqu'ils se sentent menacés ou provoqués. De plus, leur instinct territorial et leur protection farouche envers leurs petits peuvent déclencher des réactions agressives envers les intrus.</p>
-    <p>Ainsi, bien qu'ils jouent un rôle crucial dans l'écosystème forestier, il est essentiel de respecter leur habitat et de pratiquer une observation responsable pour éviter les rencontres dangereuses et préserver la sécurité des gorilles et des humains.</p>
-  </div>
-  <script>
-    document.getElementById("startButton").addEventListener("click", function() {
-      document.getElementById("primatePresentation").style.display = "block";
-    });
-  </script>
+    <header>
+        <h1>Bienvenue sur ma page sur les primates</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="mandrill.html">Mandrill</a></li>
+            <li><a href="gorille.html">Gorille</a></li>
+            <li><a href="chimpanzé.html">Chimpanzé</a></li>
+        </ul>
+    </nav>
+    <section>
+        <h2>Présentation</h2>
+        <p>Ce site présente des informations sur différents types de primates. Cliquez sur les liens ci-dessus pour en savoir plus sur chaque espèce.</p>
+    </section>
 </body>
 </html>
