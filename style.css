@@ -47,3 +47,16 @@ section {
 h1, h2 {
     color: #333;
 }
+
+h3 {
+    color: #666;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
